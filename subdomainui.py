@@ -36,7 +36,7 @@ def save():
 	root.filename.write(file_save)
 	root.filename.close()
 
-urlLabel=Label(root,text="ENTER THE URL",bg="#1e2761",fg="white",font=("courier",15,"bold italic"))
+urlLabel=Label(root,text="ENTER THE URL ( Without HTTP )",bg="#1e2761",fg="white",font=("courier",15,"bold italic"))
 urlLabel.place(x=330,y=20)
 
 urlEntry=Entry(root,fg="#1e2761",bg="white",font=("courier",15,"bold italic"),width=30,borderwidth=6)
