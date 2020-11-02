@@ -1,6 +1,6 @@
 import requests
 url=input("Enter The URL (Without http) : ")
-file=open("list.txt")
+file=open("wordlist.txt")
 content=file.read()
 subdomain=content.splitlines()
 for i in subdomain:
