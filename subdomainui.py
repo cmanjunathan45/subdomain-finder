@@ -16,7 +16,7 @@ def scan():
 	if url=="":
 		messagebox.showerror("Error","Please Enter An URL")
 	else:
-		file=open("list.txt")
+		file=open("wordlist.txt")
 		content=file.read()
 		subdomain=content.splitlines()
 		for i in subdomain:
